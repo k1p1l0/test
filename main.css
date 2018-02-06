@@ -116,3 +116,8 @@ message:not(:last-child) {
     border-radius: 5px;
     margin-bottom: 8px;
 }
+
+.message.system {
+    align-self: center;
+    box-shadow: none;
+}
